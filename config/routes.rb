@@ -1,3 +1,6 @@
+#below are routes that need to be handled by server-side code
+#bin/rails route to see syntax for endpoints
+
 Rails.application.routes.draw do
 
   root to: 'products#index'
