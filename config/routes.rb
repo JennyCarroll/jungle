@@ -1,5 +1,4 @@
-#below are routes that need to be handled by server-side code
-#bin/rails route to see syntax for endpoints
+#bin/rails route ro http://localhost:3000/rails/info/routes to see endpoints
 
 Rails.application.routes.draw do
 
@@ -27,7 +26,6 @@ Rails.application.routes.draw do
 
   get '/about' => 'about#index'
 
-  # these routes are for showing users a login form, logging them in, and logging them out.
   get '/login' => 'sessions#new'
   post '/login' => 'sessions#create'
   get '/logout' => 'sessions#destroy'
