@@ -27,6 +27,8 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 To run Cypress tests
 bin/rails cypress:run
+Run the servers as
+bin/rails s -b 0.0.0.0 -e test
 
 ## Dependencies
 
