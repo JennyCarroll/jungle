@@ -36,3 +36,7 @@ bin/rails s -b 0.0.0.0 -e test
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## Dependencies
+
+admin username is Jungle, password is book
