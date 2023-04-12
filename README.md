@@ -1,6 +1,10 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1. This project was created and published by me as part of my learnings at Lighthouse Labs.
+
+## Final Product
+
+!["add item to cart"]()
 
 ## Setup
 
@@ -23,8 +27,6 @@ Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
 
 More information in their docs: <https://stripe.com/docs/testing#cards>
 
-## Stripe Testing
-
 To run Cypress tests
 bin/rails cypress:run
 Run the servers as
@@ -37,6 +39,7 @@ bin/rails s -b 0.0.0.0 -e test
 - PostgreSQL 9.x
 - Stripe
 
-## Dependencies
+## Admin login info
 
-admin username is Jungle, password is book
+username: Jungle
+password: book
