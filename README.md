@@ -2,9 +2,13 @@
 
 A mini e-commerce application built with Rails 6.1. This project was created and published by me as part of my learnings at Lighthouse Labs. Tested with RSpec and Cypress.
 
-## Final Product
+### Add item to cart
 
-!["add item to cart"]()
+!["add item to cart"](https://github.com/JennyCarroll/jungle/blob/main/docs/addToCart.gif?raw=true)
+
+### View item details
+
+!["view item details"](https://github.com/JennyCarroll/jungle/blob/main/docs/productInfo.gif?raw=true)
 
 ## Setup
 
@@ -16,6 +20,7 @@ A mini e-commerce application built with Rails 6.1. This project was created and
 6. Sign up for a Stripe account
 7. Put Stripe (test) keys into appropriate .env vars
 8. Run `bin/rails s -b 0.0.0.0` to start the server
+9. Admin login: Jungle, Admin password: book
 
 ## Database
 
@@ -38,8 +43,3 @@ bin/rails s -b 0.0.0.0 -e test
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
-
-## Admin login info
-
-username: Jungle
-password: book
