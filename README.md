@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1. This project was created and published by me as part of my learnings at Lighthouse Labs.
+A mini e-commerce application built with Rails 6.1. This project was created and published by me as part of my learnings at Lighthouse Labs. Tested with RSpec and Cypress.
 
 ## Final Product
 
